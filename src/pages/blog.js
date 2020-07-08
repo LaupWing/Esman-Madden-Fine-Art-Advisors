@@ -13,7 +13,7 @@ const IndexPage = ({data}) => (
                 <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
                 <br/>
                 <br/>
-                <Link to={post.node.frontmatter.path}></Link>
+                <Link to={post.node.frontmatter.path}>Read More</Link>
                 <br/>
                 <br/>
                 <hr/>
