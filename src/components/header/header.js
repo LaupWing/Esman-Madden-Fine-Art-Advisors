@@ -11,10 +11,9 @@ const Header = () => (
         <div className={`container ${styles.container}`}>
             <Logo/>
             <Nav/>
-            <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-            {/* <Image /> */}
-                <Image alt="Gatsby in Space" filename="gatsby-astronaut.png" />
-            </div>
+        </div>
+        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+            <Image alt="Gatsby in Space" filename="test_painting.jpg"/>
         </div>
     </header>
 )
