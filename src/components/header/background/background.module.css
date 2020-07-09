@@ -17,6 +17,9 @@
 .img_container:first-of-type img{
     transform: scale(2);
 }
+.img_container:first-of-type{
+    justify-content: flex-end;
+}
 .img_container:first-of-type::after{
     content: '';
     position: absolute;

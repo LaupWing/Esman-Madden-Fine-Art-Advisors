@@ -1,16 +1,6 @@
 .nav{
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.container{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
-    padding: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 25%;
-    z-index: var(--layer-1);
 }
