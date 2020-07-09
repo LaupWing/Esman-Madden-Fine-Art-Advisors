@@ -4,10 +4,12 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import Image2 from "../components/image2"
 import SEO from "../components/seo"
+import Banner from "../components/banner/banner"
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
+        <Banner/>
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
