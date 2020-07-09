@@ -1,5 +1,4 @@
 import React, {useRef, useEffect} from 'react'
-import { Link } from "gatsby"
 import styles from './logo.module.css'
 
 export default () => {
@@ -15,15 +14,13 @@ export default () => {
         })
     })
     return (
-        <Link to="/">
-            <h1 
-                className={styles.logo}
-                ref={container}
-            >
-                    <span>e.Madden</span>
-                    <span>Fine_Art</span>
-                    <span>Advisors</span>
-            </h1>
-        </Link>
+        <h1 
+            className={styles.logo}
+            ref={container}
+        >
+                <span>e.Madden</span>
+                <span>Fine_Art</span>
+                <span>Advisors</span>
+        </h1>
     )
 }
