@@ -14,3 +14,8 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+.container{
+    max-width: 900px;
+    width: 80vw;
+}
