@@ -6,3 +6,7 @@
     margin: 0 10px;
     font-weight: bold;
 }
+
+.active{
+    border-bottom: solid var(--highlight-color) 3px;
+}

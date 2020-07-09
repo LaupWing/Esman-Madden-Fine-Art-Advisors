@@ -5,10 +5,10 @@ import styles from './menu.module.css'
 export default function menu() {
     return (
         <ul className={styles.menu}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/">Artworks</Link></li>
-            <li><Link to="/">Contact</Link></li>
+            <li><Link activeClassName={styles.active} to="/">Home</Link></li>
+            <li><Link activeClassName={styles.active} to="/about">About</Link></li>
+            <li><Link activeClassName={styles.active} to="/artworks">Artworks</Link></li>
+            <li><Link activeClassName={styles.active} to="/contact">Contact</Link></li>
         </ul>
     )
 }
