@@ -11,7 +11,6 @@ export default () => {
         spans.forEach(span=>{
             if((maxVal-span.offsetWidth)>0){
                 span.style.letterSpacing = ((maxVal-span.offsetWidth) / (span.textContent.length-2) )+ 'px'
-                // console.log(maxVal-span.offsetWidth)
             }
         })
     })
