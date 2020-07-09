@@ -1,0 +1,8 @@
+.menu{
+    display: flex;
+}
+.menu li{
+    color: var(--secundair-font-color);
+    margin: 0 10px;
+    font-weight: bold;
+}
