@@ -1,12 +1,14 @@
 .logo{
-    font-size: 1em;
+    font-size: .8em;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
     height: 110px;
     width: 110px;
-    padding: 5px;
+    padding: 10px;
+    font-weight: normal;
+    color: var(--secundair-font-color);
     background-color: var(--highlight-color);
 }

@@ -4,7 +4,8 @@
     box-sizing: border-box;
     --main-font-color: black;
     --secundair-font-color: white;
-    --highlight-color: pink;
+    --highlight-color: #B5073A;
+    font-family: 'Open Sans', sans-serif;
 }
 li{
     list-style: none;
