@@ -5,6 +5,7 @@
     --main-font-color: black;
     --secundair-font-color: white;
     --highlight-color: #B5073A;
+    --layer-1: 1000;
     font-family: 'Open Sans', sans-serif;
 }
 li{

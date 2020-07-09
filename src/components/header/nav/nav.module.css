@@ -10,4 +10,5 @@
     display: flex;
     justify-content: center;
     height: 25%;
+    z-index: var(--layer-1);
 }
