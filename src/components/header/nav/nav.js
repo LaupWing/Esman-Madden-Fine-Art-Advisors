@@ -1,13 +1,15 @@
-import React from 'react'
-import { Link } from "gatsby"
-import styles from './nav.module.css'
+import React from "react"
+import Menu from './menu/menu'
+import Logo from './logo/logo'
+import styles from "./nav.module.css"
 
-export default function menu() {
-    return (
-        <ul className={styles.nav}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/">Contact</Link></li>
-        </ul>
-    )
-}
+const Header = () => (
+    <div className={styles.container}>
+        <nav className={`container ${styles.nav}`}>
+            <Logo/>
+            <Menu/>
+        </nav>
+    </div>
+)
+
+export default Header

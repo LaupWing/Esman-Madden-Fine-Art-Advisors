@@ -1,3 +1,13 @@
 .nav{
     display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 25%;
 }
