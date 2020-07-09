@@ -1,11 +1,12 @@
 .header{
     display: flex;
     justify-content: center;
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     z-index: var(--layer-1);
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
     position: absolute;
     top: 0;
     left: 0;
+    align-items: flex-start;
 } 

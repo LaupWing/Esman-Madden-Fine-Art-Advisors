@@ -17,6 +17,10 @@ export default ()=>{
                     </div>
                 </div>
             </div>
+            <article className={styles.info}>
+                <h2>Andy Warhol: From A to Z</h2>
+                <p>28-10-2020</p>
+            </article>
         </section>
     )
 }

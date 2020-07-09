@@ -1,6 +1,8 @@
 .banner{
     height: 100vh;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 .background{
     width: 100%;
@@ -32,4 +34,18 @@
     top: 0;
     left: 0;
     background-image: linear-gradient(to right,rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+
+.info{
+    width: 60%;
+    color: var(--secundair-font-color);
+    z-index: var(--layer-1);
+    margin-bottom: 40%;
+    padding: 20px;
+    backdrop-filter: opacity(0.5) blur(4px);
+    border-radius: 5px;
+}
+
+.info h2{
+    margin-bottom: 100px;
 }

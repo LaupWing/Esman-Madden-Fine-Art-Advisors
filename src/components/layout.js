@@ -27,10 +27,9 @@ const Layout = ({ children }) => {
         <>
             <Header siteTitle={data.site.siteMetadata.title} />
             <div
+                className='container'
                 style={{
                     margin: `0 auto`,
-                    maxWidth: 960,
-                    padding: `0 1.0875rem 1.45rem`,
                 }}
             >
                 <main>{children}</main>
@@ -39,8 +38,8 @@ const Layout = ({ children }) => {
                     {` `}
                     <a href="https://www.gatsbyjs.org">Gatsby</a>
                 </footer> */}
-                <Footer/>
             </div>
+            <Footer/>
         </>
   )
 }
