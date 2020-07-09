@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import Image2 from "../components/image2"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -12,6 +13,7 @@ const IndexPage = () => (
         <p>Now go build something great.</p>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
             <Image />
+            <Image2 alt="Gatsby in Space" filename="test_painting.jpg"/>
         </div>
     </Layout>
 )
